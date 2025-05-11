@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cointainer{
+    text-align: center;
+    padding: 30px;
+    background-color: #ffe4e1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+    border-radius: 10px;
+}
+h1{
+    color: #c71585;
+    font-size: 2.5em;
+}
+p{
+    color: #333;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+span{
+    color: #000;
+    font-size: 1.5em;
+}
+img{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.heart {
+    font-size: 3em;
+    color: #ff0000;
+    margin-top: 10px;
+    animation: beat 1s infinite;
+  }
+  
+  @keyframes beat {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.3);
+    }
+  }
